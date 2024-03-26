@@ -1,0 +1,59 @@
+.fundation {
+    display: grid;
+}
+
+.mision,
+.vision,
+.pcoropativos {
+    padding-right: 5px;
+    padding-left: 20px;
+    text-align: justify;
+    border: medium solid #ccc;
+    border-radius: 20Px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.img {
+    width: 300px;
+    padding-bottom: 10px;
+    margin: auto;
+
+}
+
+.img_corporativo,
+.img_mision,
+.img_vison {
+    margin: auto;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+
+        .Fundation {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+
+
+        .mision {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
+
+        /*   .img {
+        width: 300px;               
+        margin: auto;
+    } */
+
+        .vision {
+            grid-column: 2 / 2;
+            grid-row: 2 / 3;
+        }
+
+
+    }
+
+}

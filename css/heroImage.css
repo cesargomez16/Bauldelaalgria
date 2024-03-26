@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "sans-serif";
+    box-sizing: border-box;
+}
+
+.banner {
+    background: url("/assets/img/markus-spiske-80BnaHKhKuQ-unsplash.jpg") center/cover;
+    height: 700px;
+    width: 100%; 
+ /*    position: absolute;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #38d996;
+    opacity: 80%;
+}
+
+.banner__info {
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner__title {
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.banner__p {
+    line-height: 2;
+    font-size: 0.9em;
+    font-family: sans-serif;
+} 
