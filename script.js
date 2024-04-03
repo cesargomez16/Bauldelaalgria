@@ -1,7 +1,6 @@
 const header = document.querySelector("header");
 const footer = document.querySelector("footer");
 
-
 header.innerHTML = `<!-- Menu -->
 <nav>
   <input type="checkbox" id="check" />
@@ -30,8 +29,8 @@ header.innerHTML = `<!-- Menu -->
     <li class="active"><a href="index.html">Inicio</a></li>
     <li><a href="nosotros.html">Nosotros</a></li>
     <li><a href="servicios.html">Servicios</a></li>
-    <li><a href="#">Portafolio</a></li>
-    <li><a href="#">Contacto</a></li>
+    <li><a href="portafolio.html">Portafolio</a></li>
+    <li><a href="#">Contacto</a></li>  
   </ul>
 </nav>
 `;
@@ -113,6 +112,4 @@ footer.innerHTML = `
           <small>&copy; 2023 <b>MTB</b> | Todos los derchos reservados </small>
         </div>     
 
-      </div>`;      
-
-
+      </div>`;
