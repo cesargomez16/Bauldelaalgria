@@ -1,5 +1,6 @@
 const header = document.querySelector("header");
 const footer = document.querySelector("footer");
+const redes = document.querySelector("redes");
 
 header.innerHTML = `<!-- Menu -->
 <nav>
@@ -30,7 +31,7 @@ header.innerHTML = `<!-- Menu -->
     <li><a href="nosotros.html">Nosotros</a></li>
     <li><a href="servicios.html">Servicios</a></li>
     <li><a href="portafolio.html">Portafolio</a></li>
-    <li><a href="#">Contacto</a></li>  
+    <li><a href="contacto.html">Contacto</a></li>  
   </ul>
 </nav>
 `;
@@ -113,3 +114,32 @@ footer.innerHTML = `
         </div>     
 
       </div>`;
+
+
+redes.innerHTML = `
+      <div class="container-bar">
+        <input type="checkbox" id="btn-social" />
+        <label for="btn-social" class="fa fa-play"></label>
+        <div class="icon-social">
+          <a href="#" class="fa fa-facebook">
+            <span id="title">Facebook</span>
+          </a>
+          <a href="#" class="fa fa-youtube">
+            <span id="title">Youtube</span>
+          </a>
+          <a href="https://twitter.com/bauldelaalegria" class="fa fa-twitter" target="_blank">
+            <span id="title">Twitter</span>
+          </a>
+          <a href="#" class="fa fa-instagram">
+            <span id="title">Instagram</span>
+          </a>
+          <a href="https://wa.me/+573172867174" class="fa fa-whatsapp" target="_blank">
+            <span id="title">Whatsapp</span>
+          </a>
+        </div>
+      </div>
+
+
+
+
+`;

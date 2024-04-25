@@ -1,7 +1,7 @@
-.fundation {
+/* .fundation {
     display: grid;
-}
-
+} */
+ 
 .mision,
 .vision,
 .pcoropativos {
@@ -19,7 +19,7 @@
     width: 300px;
     padding-bottom: 10px;
     margin: auto;
-
+   
 }
 
 .img_corporativo,
@@ -43,7 +43,7 @@
             grid-row: 1 / 2;
         }
 
-        /*   .img {
+      /*     .img {
         width: 300px;               
         margin: auto;
     } */

@@ -1,20 +1,58 @@
-body{
-    background-color:  #FAE9B5 ;
+:root {
+  --main-font: sans-serif;
+  --font-size: 16px;
+  --main-color: #f7df1e;
+  --second-color: #222;
+  --main-modal-color: rgba(247, 222, 30, 0.85);
+  --second-modal-color: rgba(34, 34, 34, 0.85);
+  --container-width: 1200px;
 }
+
+html {
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+body {
+  background-color: #fae9b5;
+
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main{
+ padding: 2rem; 
+/*   padding-top: 4rem;  */
+/* padding-bottom: 2rem; */
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: var(--container-width);
+  min-height: 100vh;
+ /*  text-align: center; */
+ text-align: justify;
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .conteiner {
   padding: 0 0 0 40px;
-  margin: 0 10px 0 28px; 
-  text-align: justify;  
-  
+  margin: 0 10px 0 28px;
+  text-align: justify;
 }
 
 .columna__1 {
   /* padding: 25px;
   margin: 0 10px 0 28px; */
   /* text-align: justify;  */
-  border-radius: 15px;
+/*   border-radius: 15px;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 20px; */
 }
 
 .imgen {
@@ -24,19 +62,18 @@ body{
   margin-left: 28px;
 }
 
-h1{
+h1 {
   padding: 25px;
   text-align: center;
   color: #ea4b1c;
 }
 
-.Fundation p{ 
-padding-bottom: 20px;
-  
+.Fundation p {
+  padding-bottom: 20px;
 }
 
-.Fundation ol{ 
-    padding-bottom: 20px;
+.Fundation ol {
+  padding-bottom: 20px;
 }
 .Fundation h2 {
   padding-bottom: 0;
@@ -48,4 +85,6 @@ padding-bottom: 20px;
     height: 200px;
     width: 95%;
   }
+
+  
 }
